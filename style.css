@@ -1,0 +1,45 @@
+body {
+    background-color: antiquewhite;
+}
+
+header>h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#customAlert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+#box {
+    border-radius: 5px;
+    margin: 100px auto;
+    height: 70vh;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.content {
+    /* margin-top: 30px; */
+    /* height: 43vh; */
+}
+
+#confirmbtn {
+    padding: 1px 10px;
+    border-radius: 8px;
+    background-color: #339966;
+    color: white;
+    margin-left: 90%;
+}
+#varticalLine{
+    height: 270px;
+    width: 3px;
+    background-color: black;
+}
